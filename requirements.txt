@@ -1,0 +1,32 @@
+# Data Field Theory Requirements
+# For full reproducibility
+
+# Core scientific computing
+numpy>=1.24.3
+scipy>=1.10.1
+matplotlib>=3.7.0
+seaborn>=0.12.2
+pandas>=1.5.3
+
+# Machine learning and geometry
+scikit-learn>=1.2.2
+networkx>=3.1
+trimesh>=3.23.5
+pyvista>=0.38.5
+
+# Progress bars and utilities
+tqdm>=4.65.0
+joblib>=1.2.0
+
+# Data handling
+h5py>=3.8.0
+pickle-mixin>=1.0.2
+
+# Testing and development
+pytest>=7.3.1
+black>=23.3.0
+flake8>=6.0.0
+
+# Optional (for advanced features)
+torch>=2.0.0
+jax>=0.4.13
